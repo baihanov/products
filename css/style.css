@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body.dark {
+  background: #343a40;
+  color: #fff;
+  transition: 0.5s;
+}
+
+body.dark button {
+  background: #343a40;
+  color: #fff;
+  transition: 0.4s;
+  border: 2px solid white;
+}
+
+body.dark h1 {
+  color: white;
+}
+
+body.dark h2 {
+  color: white;
+}
+
+body.dark h3 {
+  color: white;
+}
+
+body.dark h4 {
+  color: white;
+}
+
+body.dark a {
+  color: white;
+}
+
+body.dark p {
+  color: white;
+}
+
+#header {
+  padding: 30px 0;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background: #e8e3e3;
+  backdrop-filter: blur(15px);
+}
+#header .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .hero--icon {
+  display: flex;
+}
+#header .hero--icon h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #173A56;
+}
+#header .hero--title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+}
+#header .hero--title a {
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343D;
+}
+#header .hero--btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+#header .hero--btn--one {
+  font-weight: 600;
+  font-size: 16px;
+  color: #173A56;
+  border: 1px solid #BCD0E5;
+  border-radius: 4px;
+  padding: 10px 20px;
+  transition: 0.4s;
+}
+#header .hero--btn--one:hover {
+  background: #02897A;
+  transform: scale(1.1);
+}
+#header .hero--btn--two {
+  background: #02897A;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+#header .hero--btn--two:hover {
+  background: transparent;
+  border: 2px solid #02897A;
+  transform: scale(1.1);
+  color: #000;
+}
+
+#work {
+  padding-top: 10%;
+}
+#work .work {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#work .work--title h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #22343D;
+}
+#work .work--title p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #22343D;
+  padding: 50px 0;
+}
+#work .work--title--watch {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 75%;
+}
+#work .work--title--watch--btn {
+  background: #02897A;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+#work .work--title--watch--btn:hover {
+  background: transparent;
+  border: 2px solid #02897A;
+  transform: scale(1.1);
+  color: #000;
+}
+#work .work--title--watch--icon {
+  color: #02897A;
+  width: 20px;
+}
+#work .work--title--watch ul {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration-line: underline;
+  color: #02897A;
+}
+
+/*# sourceMappingURL=style.css.map */
